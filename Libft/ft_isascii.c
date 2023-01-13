@@ -6,13 +6,13 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 17:07:15 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/12 17:11:28 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/13 21:56:47 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_isascii(int c)
 {
-	if (c >= 0 && c<= 127)
+	if (c >= 0 && c <= 127)
 		return (1);
 	else
 		return (0);

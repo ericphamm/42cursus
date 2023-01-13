@@ -6,11 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 16:59:23 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/12 17:52:56 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/13 21:55:25 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isalnum (int c)
+int	ft_isalnum(int c)
 {
 	if (c >= '0' && c <= '9' || c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
 		return (1);

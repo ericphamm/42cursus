@@ -6,11 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/12 13:45:39 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/12 14:24:56 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/13 21:57:06 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isdigit (int c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
