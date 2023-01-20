@@ -6,12 +6,13 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/13 17:44:31 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/14 18:11:31 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/20 22:40:47 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <string.h>
+#include <stdio.h>
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
