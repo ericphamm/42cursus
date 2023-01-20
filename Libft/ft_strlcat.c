@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/14 19:47:19 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/14 21:07:55 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/20 15:34:18 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,5 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 		i++;
 	}
 	dst[j] = '\0';
-	return (ft_strlen(src) + ft_strlen(&src[i]))
+	return (ft_strlen(src) + ft_strlen(&src[i]));
 }
