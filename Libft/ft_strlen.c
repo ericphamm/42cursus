@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/13 15:04:59 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/13 15:35:00 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/21 18:46:21 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,4 @@ int	ft_strlen(char *str)
 		lenght++;
 	}
 	return lenght;
-}
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-	char a[] = "hello";
-	printf("%d",ft_strlen(a));
 }
