@@ -6,9 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 17:20:49 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/20 17:44:01 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/22 19:10:25 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {

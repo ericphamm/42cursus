@@ -6,12 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 22:12:42 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/21 19:43:55 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/22 19:10:48 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {

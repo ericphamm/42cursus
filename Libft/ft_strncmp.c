@@ -6,9 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/13 15:23:33 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/13 17:44:15 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/22 19:09:34 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strncmp(const char *str1, const char *str2, size_t n)
 {

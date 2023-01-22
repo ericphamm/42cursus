@@ -6,11 +6,13 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/13 15:04:59 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/21 18:46:21 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/22 19:37:21 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_strlen(char *str)
+#include "libft.h"
+
+size_t	ft_strlen(const char *str)
 {
 	int lenght = 0;
 	while (*str != '\0')

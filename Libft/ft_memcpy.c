@@ -6,12 +6,11 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/21 15:44:09 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/21 18:22:30 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/22 19:10:42 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {
