@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/28 18:05:00 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/28 20:46:45 by qupham           ###   ########.fr       */
+/*   Updated: 2023/01/28 21:07:14 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,9 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!res)
 		return (NULL);
 	while (i < len)
+	{
 		res[i++] = s[start++];
+	}
 	res[i] = '\0';
 	return (res);
 }
