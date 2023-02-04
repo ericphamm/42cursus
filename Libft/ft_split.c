@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 18:36:13 by qupham            #+#    #+#             */
-/*   Updated: 2023/02/04 20:50:39 by qupham           ###   ########.fr       */
+/*   Updated: 2023/02/04 21:54:13 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,3 +72,38 @@ char	**ft_split(char const *s, char c)
 	res[ar] = NULL;
 	return (res);
 }
+
+
+
+
+// hello,this,,,is,test
+// j=0
+// i=0
+// j=5
+// res[0]=hello\0
+// i=5
+
+
+
+// i=5
+// j=0
+// ptkali carku , aproto 5+1 i++
+// i=5+1
+// j=0+4
+// res[1]=this \0
+
+
+
+
+// hello,this,,,is,test
+// num 12    3    4
+// i=10 11 12 13    14   15   16
+
+
+
+
+
+
+
+
+
