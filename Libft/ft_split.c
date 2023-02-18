@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/04 18:36:13 by qupham            #+#    #+#             */
-/*   Updated: 2023/02/04 21:54:13 by qupham           ###   ########.fr       */
+/*   Updated: 2023/02/11 10:59:21 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static int	array_count(const char *s, char c)
 	return (num);
 }
 
-static char	*allocate(int i, int j, const char *s)
+static char	*allocate(int *i, int j, const char *s)
 {
 	char	*res;
 

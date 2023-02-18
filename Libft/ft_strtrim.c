@@ -25,13 +25,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (str);
 }
 
-#include <stdio.h>
-#include <stdlib.h>
-#include "libft.h"
-int main()
-{
-	char s1[] = "bttttatccrimabcaa,,,this,,,tootttvttt";
-char set[] = "abvtc";
-char *result = ft_strtrim(s1, set);
-printf("%s\n", result);
-}
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include "libft.h"
+// int main()
+// {
+// 	char s1[] = "bttttatccrimabcaa,,,this,,,tootttvttt";
+// char set[] = "abvtc";
+// char *result = ft_strtrim(s1, set);
+// printf("%s\n", result);
+// }
