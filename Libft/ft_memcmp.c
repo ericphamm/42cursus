@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 17:58:53 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/22 18:22:28 by qupham           ###   ########.fr       */
+/*   Updated: 2023/02/19 18:22:51 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-int main()
-{
-	char p1[]="d";
-	char p2[]="c";
-	printf("%d",ft_memcmp(p1,p2,10));
-}
+// int main()
+// {
+// 	char p1[]="cdasdsa";
+// 	char p2[]="ca";
+// 	printf("%d",ft_memcmp(p1,p2,2));
+// }
