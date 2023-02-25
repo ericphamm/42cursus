@@ -1,26 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstlast.c                                       :+:      :+:    :+:   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/11 12:35:09 by qupham            #+#    #+#             */
-/*   Updated: 2023/02/11 12:38:57 by qupham           ###   ########.fr       */
+/*   Created: 2023/01/22 22:29:36 by qupham            #+#    #+#             */
+/*   Updated: 2023/02/25 15:40:10 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+char	*ft_strrchr(const char *s, int c)
 {
-	if (lst == NULL)
-		return (NULL);
-	if (lst->next == NULL)
-		return (lst);
-	while (lst != NULL)
+	int	i;
+
+	i = ft_strlen(s) - 1;
+	while (c > 127)
 	{
-		lst = lst->next;
+		c = c % 128;
 	}
-	return (lst);
+	if (s[i + 1] == '\0' && c == '\0')
+		return ((char *)&s[i + 1]);
+	while (i >= 0)
+	{
+		if (s[i] == c)
+			return ((char *)&s[i]);
+		i--;
+	}
+	return (0);
 }

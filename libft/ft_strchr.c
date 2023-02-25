@@ -1,36 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstmap.c                                        :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/11 15:27:26 by qupham            #+#    #+#             */
-/*   Updated: 2023/02/11 15:35:42 by qupham           ###   ########.fr       */
+/*   Created: 2023/01/20 17:20:49 by qupham            #+#    #+#             */
+/*   Updated: 2023/02/25 15:44:03 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+char	*ft_strchr(const char *s, int c)
 {
-	t_list *start;
-	t_list *temp;
+	int	i;
 
-	if (!lst || !f || !del)
-		return (NULL);
-	start = 0;
-	while (lst)
+	i = 0;
+	while (c > 127)
 	{
-		temp = ft_lstnew((*f)(lst->content));
-		if (!temp)
-		{
-			ft_lstclear(&start, del);
-			return (NULL);
-		}
-		else
-			ft_lstadd_back(&start, temp);
-		lst = lst->next;
+		c = c % 128;
 	}
-	return(start);
+	while (s[i] != '\0')
+	{
+		if (s[i] == c)
+			return ((char *)(s + i));
+		i++;
+	}
+	if (s[i] == c)
+		return ((char *)(s + i));
+	return (0);
 }

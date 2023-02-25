@@ -6,7 +6,7 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 22:12:42 by qupham            #+#    #+#             */
-/*   Updated: 2023/01/22 19:10:48 by qupham           ###   ########.fr       */
+/*   Updated: 2023/02/24 16:30:58 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,11 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-int main()
-{
-	char d[] = "aa";
-	char s[] = "helloworld";
-	size_t n = 3;
+// int main()
+// {
+// 	char d[] = "aa";
+// 	char s[] = "helloworld";
+// 	size_t n = 3;
 
-	printf("%s", (char *)ft_memmove(d,s,n));
-}
+// 	printf("%s", (char *)ft_memmove(d,s,n));
+// }
