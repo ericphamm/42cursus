@@ -6,13 +6,13 @@
 /*   By: qupham <qupham@student.42prague.com>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 12:35:09 by qupham            #+#    #+#             */
-/*   Updated: 2023/02/24 19:10:30 by qupham           ###   ########.fr       */
+/*   Updated: 2023/02/26 18:40:54 by qupham           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	if (lst == NULL)
 		return (NULL);
